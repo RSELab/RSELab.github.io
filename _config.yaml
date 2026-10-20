@@ -59,6 +59,7 @@ include:
 # force jekyll to exclude certain files/folders
 exclude:
   - README.md
+  - docs
   - LICENSE.md
   - CITATION.cff
   - anchor.js

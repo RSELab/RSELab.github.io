@@ -1,4 +1,6 @@
-This website is based on the Lab Website Template.
-See its documentation for working with this site:
+Updating your profile or publications? See the guides:
 
-https://greene-lab.gitbook.io/lab-website-template-docs
+- [docs/profile.md](https://github.com/RSELab/RSELab.github.io/blob/main/docs/profile.md)
+- [docs/publications.md](https://github.com/RSELab/RSELab.github.io/blob/main/docs/publications.md)
+
+A preview link will be posted on this pull request once it builds.
