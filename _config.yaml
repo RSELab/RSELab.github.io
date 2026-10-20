@@ -55,6 +55,9 @@ sass:
 include:
   - _styles
   - _scripts
+  # stop GitHub Pages from re-running Jekyll on the built site, which would
+  # drop every folder starting with an underscore (all the CSS and JS)
+  - .nojekyll
 
 # force jekyll to exclude certain files/folders
 exclude:
