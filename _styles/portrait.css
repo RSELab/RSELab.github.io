@@ -1,0 +1,161 @@
+/* ===========================
+   Team Grid
+=========================== */
+.team-grid-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  justify-content: center; /* very important */
+  align-items: start;
+  width: 100%;
+  max-width: 1000px; /* slightly smaller than 1200px */
+  margin: 0 auto;
+  transform: translateX(55px);
+}
+
+/* ===========================
+   Member Card (Portrait)
+=========================== */
+.team-member {
+  width: 100%;
+  max-width: 250px;
+}
+
+.portrait-wrapper {
+  display: contents;
+}
+
+.portrait {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 175px;
+  max-width: 100%;
+  text-decoration: none;
+  height: 100%;
+  gap: 0.5rem; /* consistent and natural spacing */
+}
+
+.portrait[data-style=small] {
+  width: 100px;
+}
+
+.portrait[data-style=tiny] {
+  flex-direction: row;
+  gap: 15px;
+  width: unset;
+  text-align: left;
+}
+
+/* ===========================
+   Top Left Icon
+=========================== */
+.portrait .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(20px + 10%);
+  aspect-ratio: 1/1;
+  border-radius: 999px;
+  background: var(--background);
+  box-shadow: var(--shadow);
+  transform: translate(14%, 14%);
+}
+
+.portrait[data-style=small] .icon {
+  left: -2px;
+  top: -2px;
+}
+
+.portrait[data-style=tiny] .icon {
+  display: none;
+}
+
+/* ===========================
+   Portrait Image
+=========================== */
+.portrait-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 999px;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
+/* Tiny style adjustment for image */
+.portrait[data-style=tiny] .portrait-image {
+  width: 50px;
+  margin: 0;
+}
+
+/* ===========================
+   Text Information
+=========================== */
+.portrait-name {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  margin: 0.2rem 0 0 0;
+}
+
+.portrait-role {
+  font-size: small;
+  opacity: 0.9;
+  margin: 0.2rem 0 0 0;
+}
+
+.portrait-research {
+  font-family: var(--body);
+  font-size: 0.7rem;
+  font-style: italic;
+  opacity: 0.8;
+  text-align: center;
+  line-height: 1.2;
+  margin: 0.2rem 0 0 0;
+  word-break: break-word;
+  min-height: 2.2em;
+}
+
+/* Hide role and research for tiny style */
+.portrait[data-style=tiny] .portrait-role,
+.portrait[data-style=tiny] .portrait-research {
+  display: none;
+}
+
+/* ===========================
+   Social Links
+=========================== */
+.portrait-links {
+  display: flex;
+  justify-content: center;
+  transform: translateX(-39px);
+  align-items: center;
+  margin-top: 0.2rem; /* <<< closer to research */
+  gap: 0.5rem;
+}
+
+.portrait-links a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+}
+
+.portrait-links a i,
+.portrait-links a svg {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=portrait.css.map */

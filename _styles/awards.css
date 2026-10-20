@@ -1,0 +1,33 @@
+.awards {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+.award {
+  max-width: 100%;
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--awards);
+  color: var(--text);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: background var(--transition), color var(--transition);
+}
+
+.award:hover {
+  filter: brightness(75%);
+}
+
+.award[data-active] {
+  background-color: rgba(var(--awards-rgb), 0.75);
+}
+
+/*# sourceMappingURL=awards.css.map */

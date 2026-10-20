@@ -1,0 +1,36 @@
+.conferences {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+.conference {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--awards);
+  color: var(--text);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: background-color var(--transition), color var(--transition);
+}
+
+.conference:hover {
+  filter: brightness(75%);
+}
+
+.conference[data-active] {
+  background-color: rgba(var(--secondary-rgb), 0.75);
+}
+
+/*# sourceMappingURL=conferences.css.map */

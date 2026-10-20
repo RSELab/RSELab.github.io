@@ -1,0 +1,66 @@
+.outings {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  --outings-height: clamp(130px, 15vw, 200px);
+  height: var(--outings-height);
+  mask-image: linear-gradient(to right, transparent 0%, #000 7%, #000 93%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 7%, #000 93%, transparent 100%);
+}
+
+.outings::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20%;
+  z-index: 1;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--background));
+  pointer-events: none;
+}
+
+section:has(.outings) + section > h1:first-child {
+  margin-top: 0;
+}
+
+.outings-track {
+  display: flex;
+  width: max-content;
+  height: 100%;
+  animation: outings-scroll var(--outings-duration, 80s) linear infinite;
+}
+
+.outings-track img {
+  flex: none;
+  height: 100%;
+  width: auto;
+  margin-right: 4px;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+@keyframes outings-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.outings:hover .outings-track,
+.outings:focus-within .outings-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .outings {
+    overflow-x: auto;
+  }
+  .outings-track {
+    animation: none;
+  }
+}
+
+/*# sourceMappingURL=outings.css.map */
