@@ -6,7 +6,7 @@
 
 The website of the Robotics and State Estimation Lab (RSE Lab) at the University of Washington, led by Dieter Fox.
 
-Live site: **[rselab.github.io](https://rselab.github.io)**
+Live site: **[rse-lab.cs.washington.edu](https://rse-lab.cs.washington.edu)**
 
 It is a [Jekyll](https://jekyllrb.com) site built on Greene Lab's [Lab Website Template](https://github.com/greenelab/lab-website-template) ([template docs](https://greene-lab.gitbook.io/lab-website-template-docs)).
 
@@ -42,9 +42,9 @@ Each pull request gets a preview build, and a bot comments with its link. Once t
 Everything runs in GitHub Actions. Nobody builds the site by hand.
 
 1. **Every push to `main`** runs `on-push`. It first runs `_cite/cite.py`, which reads `_data/openalex.yaml` and `_data/sources.yaml`, looks up full citation details, and commits the result to `_data/citations.yaml`. It then builds the site with Jekyll and pushes the output to the `gh-pages` branch.
-2. **GitHub Pages** serves the `gh-pages` branch at https://rselab.github.io/.
+2. **GitHub Pages** serves the `gh-pages` branch at https://rse-lab.cs.washington.edu/. The domain comes from the `CNAME` file in the repo root, which Jekyll copies into every build. Without it, each deploy would wipe the custom domain.
 3. **Every Monday** `on-schedule` refreshes the citations, so new papers appear without anyone pushing.
-4. **Pull requests** run `on-pull-request`, which builds a preview at `https://rselab.github.io/preview/pr-<number>/`.
+4. **Pull requests** run `on-pull-request`, which builds a preview at `https://rse-lab.cs.washington.edu/preview/pr-<number>/`.
 
 Because the citation step commits to `main`, the bot often has commits you don't. Run `git pull` before you push.
 
@@ -64,6 +64,8 @@ python _cite/cite.py
 There's no need to commit a regenerated `citations.yaml`. CI regenerates it on every push anyway.
 
 ## Admin notes
+
+- **Domain:** `rse-lab.cs.washington.edu` is a DNS CNAME to `rselab.github.io`, managed by UW CSE support (support@cs.washington.edu). The domain is verified for the RSELab org through a `_github-pages-challenge-RSELab` TXT record. Don't delete that record, because it stops anyone else's GitHub Pages site from claiming the domain.
 
 - The repository is `RSELab/RSELab.github.io`. GitHub Pages is set to serve the **`gh-pages` branch**, not `main`. If someone switches it back to `main`, the live site breaks, because GitHub's default Jekyll build can't run this template's plugins.
 - To change which papers are pulled automatically, edit `_data/openalex.yaml`. The comments at the top of that file list every option.
