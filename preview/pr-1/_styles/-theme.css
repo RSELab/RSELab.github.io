@@ -150,8 +150,8 @@ img.full-background {
 .alumni-table {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) auto minmax(0, 1.6fr);
-  column-gap: 2rem;
   margin: 0 0 2.5rem 0;
+  text-align: left;
 }
 
 .alumni-row {
@@ -159,7 +159,7 @@ img.full-background {
 }
 
 .alumni-row > span {
-  padding: 0.55rem 0;
+  padding: 0.55rem 2rem 0.55rem 0;
   border-bottom: 1px solid color-mix(in srgb, var(--gray) 18%, transparent);
 }
 
