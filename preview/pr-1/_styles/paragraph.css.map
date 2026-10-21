@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["paragraph.scss"],"names":[],"mappings":"AAAA;EACE;EAGA;EACA","sourcesContent":["p {\n  margin: 20px 0;\n  // ragged right. justified text opens uneven gaps between words, which is\n  // worst in the narrow columns and over the hero photo\n  text-align: left;\n  line-height: var(--spacing);\n}\n"],"file":"paragraph.css"}

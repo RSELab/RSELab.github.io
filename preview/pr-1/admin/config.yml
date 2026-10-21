@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: laurenz-fx/State-Estimation-Lab-Website
+  branch: main
+  auth_scope: repo
+  client_id: Ov23liXkRLk3e8YVBu32
+
+media_folder: "images/team"
+public_folder: "/images/team"
+
+collections:
+  - name: "members"
+    label: "Team Members"
+    folder: "_members"
+    create: true
+    slug: "{{name | slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    fields:
+      - { label: "Name", name: "name", widget: "string" } 
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Research", name: "research", widget: "string" }
+      - label: "Links"
+        name: "links"
+        widget: "object"
+        fields:
+          - { label: "Homepage", name: "home-page", widget: "string", required: false }
+          - { label: "Google Scholar", name: "google-scholar", widget: "string", required: false }
+          - { label: "Twitter", name: "twitter", widget: "string", required: false }
+      - { label: "Description", name: "body", widget: "markdown" }

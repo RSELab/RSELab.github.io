@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Content Manager</title>
+  </head>
+  <body>
+    <div id="nc-root"></div>
+
+    <script src="https://unpkg.com/decap-cms@3.6.2/dist/decap-cms.js"></script>
+
+    <script>
+      window.addEventListener('load', function () {
+        if (typeof CMS !== "undefined") {
+          CMS.init();
+        } else {
+          document.body.innerHTML = "<p style='color:red;'>CMS failed to load (script missing).</p>";
+        }
+      });
+    </script>
+  </body>
+</html>
