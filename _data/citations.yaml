@@ -117,6 +117,25 @@
   link: https://doi.org/hcd7hr
   plugin: openalex.py
   file: openalex.yaml
+- id: doi:10.1109/icra57385.2026.11696426
+  title: 'GraspGen: A Diffusion-based Framework for 6-DOF Grasping with On-Generator
+    Training'
+  authors:
+  - Adithyavairavan Murali
+  - Balakumar Sundaralingam
+  - Yu-Wei Chao
+  - Wentao Yuan
+  - Jun Yamada
+  - Mark Carlson
+  - Fabio Ramos
+  - Stan Birchfield
+  - Dieter Fox
+  - Clemens Eppner
+  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2026-06-01'
+  link: https://doi.org/hcm58h
+  plugin: openalex.py
+  file: openalex.yaml
 - id: doi:10.1109/iros60139.2025.11245882
   title: 'OptiGrasp: Optimized Grasp Pose Detection Using RGB Images for Warehouse
     Picking Robots'
@@ -424,25 +443,6 @@
   publisher: arXiv
   date: '2025-01-01'
   link: https://doi.org/hcd7ht
-  plugin: openalex.py
-  file: openalex.yaml
-- id: doi:10.1109/icra57385.2026.11696426
-  title: 'GraspGen: A Diffusion-based Framework for 6-DOF Grasping with On-Generator
-    Training'
-  authors:
-  - Adithyavairavan Murali
-  - Balakumar Sundaralingam
-  - Yu-Wei Chao
-  - Wentao Yuan
-  - Jun Yamada
-  - Mark Carlson
-  - Fabio Ramos
-  - Stan Birchfield
-  - Dieter Fox
-  - Clemens Eppner
-  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
-  date: '2026-06-01'
-  link: https://doi.org/hcm58h
   plugin: openalex.py
   file: openalex.yaml
 - id: doi:10.1109/icra57385.2026.11697556
