@@ -1,94 +1,191 @@
-- name: Jiafei Duan (PhD, 2026, Assistant Professor at NUS)
+# Former lab members, newest first. Shown in the Alumni table on the Team page.
+#
+#   name     as it should appear
+#   degree   PhD, Postdoc, MS or Undergrad (decides which table they're in)
+#   year     when they left; a range like 2005-2006 is fine
+#   now      where they went, optional
+
+- name: Jiafei Duan
   degree: PhD
-- name: Haoquan Fang (Undergrad, 2026, PhD student at Stanford)
+  year: "2026"
+  now: Assistant Professor at NUS
+- name: Haoquan Fang
   degree: Undergrad
-- name: Carter Ung (Undergrad, 2026, PhD student at Johns Hopkins)
+  year: "2026"
+  now: PhD student at Stanford
+- name: Carter Ung
   degree: Undergrad
-- name: Yi Li (PhD, 2025, xAI)
+  year: "2026"
+  now: PhD student at Johns Hopkins
+- name: Yi Li
   degree: PhD
-- name: Xiangyun Meng (PhD, 2024, Field AI)
+  year: "2025"
+  now: xAI
+- name: Xiangyun Meng
   degree: PhD
-- name: Wentao Yuan (PhD, 2024, Google DeepMind)
+  year: "2024"
+  now: Field AI
+- name: Wentao Yuan
   degree: PhD
-- name: Qiuyu (Zoey) Chen (PhD, 2024)
+  year: "2024"
+  now: Google DeepMind
+- name: Qiuyu (Zoey) Chen
   degree: PhD
-- name: Adam Fishman (PhD, 2024, OpenAI)
+  year: "2024"
+- name: Adam Fishman
   degree: PhD
-- name: Aaron Walsman (PhD, 2023, Postdoc at Harvard)
+  year: "2024"
+  now: OpenAI
+- name: Aaron Walsman
   degree: PhD
-- name: Mohit Shridhar (PhD, 2023, Dyson Research)
+  year: "2023"
+  now: Postdoc at Harvard
+- name: Mohit Shridhar
   degree: PhD
-- name: Junha Roh (PhD, 2022, Third Wave Automation)
+  year: "2023"
+  now: Dyson Research
+- name: Junha Roh
   degree: PhD
-- name: Karthik Desingh (Postdoc, 2022, Assistant Professor at UMN)
+  year: "2022"
+  now: Third Wave Automation
+- name: Karthik Desingh
   degree: Postdoc
-- name: Christopher Xie (PhD, 2021, Meta Reality Labs)
+  year: "2022"
+  now: Assistant Professor at UMN
+- name: Christopher Xie
   degree: PhD
-- name: Vinitha Ranganeni (PhD student)
+  year: "2021"
+  now: Meta Reality Labs
+# listed as "PhD student" with no year
+- name: Vinitha Ranganeni
   degree: PhD
-- name: Daniel Gordon (PhD, 2020, Third Wave Automation)
+- name: Daniel Gordon
   degree: PhD
-- name: Matt Schmittle (PhD student)
+  year: "2020"
+  now: Third Wave Automation
+# listed as "PhD student" with no year
+- name: Matt Schmittle
   degree: PhD
-- name: Arunkumar Byravan (PhD, 2019, Google DeepMind)
+- name: Arunkumar Byravan
   degree: PhD
-- name: Tanner Schmidt (PhD, 2019, Meta Reality Labs)
+  year: "2019"
+  now: Google DeepMind
+- name: Tanner Schmidt
   degree: PhD
-- name: Franziska Meier (PhD, 2018, Meta AI)
+  year: "2019"
+  now: Meta Reality Labs
+- name: Franziska Meier
   degree: PhD
-- name: Connor R. Schenck (PhD, 2018, Google DeepMind)
+  year: "2018"
+  now: Meta AI
+- name: Connor R. Schenck
   degree: PhD
-- name: Yu Xiang (Postdoc, 2018, Assistant Professor at UT Dallas)
+  year: "2018"
+  now: Google DeepMind
+- name: Yu Xiang
   degree: Postdoc
-- name: Luis Puig (Postdoc, 2017, Geomagical Labs)
+  year: "2018"
+  now: Assistant Professor at UT Dallas
+- name: Luis Puig
   degree: Postdoc
-- name: Yuyin Sun (PhD, 2016, Amazon)
+  year: "2017"
+  now: Geomagical Labs
+- name: Yuyin Sun
   degree: PhD
-- name: Vladimir Korukov (Undergrad, 2016)
+  year: "2016"
+  now: Amazon
+- name: Vladimir Korukov
   degree: Undergrad
-- name: Peter Henry (MS, 2015, Skydio)
+  year: "2016"
+- name: Peter Henry
   degree: MS
-- name: Richard Newcombe (Postdoc, 2015, Meta)
+  year: "2015"
+  now: Skydio
+- name: Richard Newcombe
   degree: Postdoc
-- name: Byron Boots (Postdoc, 2014, Associate Professor at UW)
+  year: "2015"
+  now: Meta
+- name: Byron Boots
   degree: Postdoc
-- name: Cynthia Matuszek (PhD, 2014, Assistant Professor at UMBC)
+  year: "2014"
+  now: Associate Professor at UW
+- name: Cynthia Matuszek
   degree: PhD
-- name: Evan Herbst (PhD, 2014, Amazon)
+  year: "2014"
+  now: Assistant Professor at UMBC
+- name: Evan Herbst
   degree: PhD
-- name: Kevin Lai (PhD, 2013, Samsara)
+  year: "2014"
+  now: Amazon
+- name: Kevin Lai
   degree: PhD
-- name: Marc Deisenroth (Postdoc, 2011, Professor at University College London)
+  year: "2013"
+  now: Samsara
+- name: Marc Deisenroth
   degree: Postdoc
-- name: Michael Krainin (MS 2012, Google)
+  year: "2011"
+  now: Professor at University College London
+- name: Michael Krainin
   degree: MS
-- name: Lillian Chang (Postdoc 2011, Intel)
+  year: "2012"
+  now: Google
+- name: Lillian Chang
   degree: Postdoc
-- name: Akin Sisbot (Postdoc 2011, Toyota ITC)
+  year: "2011"
+  now: Intel
+- name: Akin Sisbot
   degree: Postdoc
-- name: Jonathan Ko (PhD 2011, Google)
+  year: "2011"
+  now: Toyota ITC
+- name: Jonathan Ko
   degree: PhD
-- name: Brian Ferris (PhD 2011, Google)
+  year: "2011"
+  now: Google
+- name: Brian Ferris
   degree: PhD
-- name: James McLurkin (Postdoc 2008, Assistant Professor, Rice University)
+  year: "2011"
+  now: Google
+- name: James McLurkin
   degree: Postdoc
-- name: Hanna Pasula (Postdoc 2005-2006, Google)
+  year: "2008"
+  now: "Assistant Professor, Rice University"
+- name: Hanna Pasula
   degree: Postdoc
-- name: Lin Liao (PhD 2006, Google)
+  year: "2005-2006"
+  now: Google
+- name: Lin Liao
   degree: PhD
-- name: Donald Patterson (PhD 2005, Assistant Professor, UC Irvine)
+  year: "2006"
+  now: Google
+- name: Donald Patterson
   degree: PhD
-- name: Jeffrey Hightower (PhD 2004, Intel Research Seattle)
+  year: "2005"
+  now: "Assistant Professor, UC Irvine"
+- name: Jeffrey Hightower
   degree: PhD
-- name: Cody Kwok (PhD 2004, Google)
+  year: "2004"
+  now: Intel Research Seattle
+- name: Cody Kwok
   degree: PhD
-- name: Ravi Kiran (MS 2006, UW CSE)
+  year: "2004"
+  now: Google
+- name: Ravi Kiran
   degree: MS
-- name: Julie Letchner (MS 2006, UW CSE)
+  year: "2006"
+  now: UW CSE
+- name: Julie Letchner
   degree: MS
-- name: Benson Limketkai (MS 2006, UW CSE)
+  year: "2006"
+  now: UW CSE
+- name: Benson Limketkai
   degree: MS
-- name: Benjamin Stewart (MS 2004, MarchEx)
+  year: "2006"
+  now: UW CSE
+- name: Benjamin Stewart
   degree: MS
-- name: Kevin Sikorski (MS 2004, Coroware)
+  year: "2004"
+  now: MarchEx
+- name: Kevin Sikorski
   degree: MS
+  year: "2004"
+  now: Coroware

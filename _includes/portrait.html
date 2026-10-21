@@ -20,7 +20,19 @@
 <div class="team-member">
   <div class="portrait-wrapper">
 
-    <div class="portrait" data-style="{{ include.style }}">
+    {% comment %}
+      the card links to the member's own page, except on that page itself
+    {% endcomment %}
+    {% if member.url and member.url != page.url %}
+      {% assign portrait_tag = "a" %}
+    {% else %}
+      {% assign portrait_tag = "div" %}
+    {% endif %}
+    <{{ portrait_tag }}
+      class="portrait"
+      data-style="{{ include.style }}"
+      {% if portrait_tag == "a" %}href="{{ member.url | relative_url }}"{% endif %}
+    >
       {% if type %}
         {% include icon.html icon=type.icon %}
       {% endif %}
@@ -32,9 +44,6 @@
         loading="lazy"
         onerror="this.src='{{ 'images/paper_placeholder.png' | relative_url }}'; this.onerror=null;"
       >
-
-      {% if member.url %}
-      {% endif %}
 
       {% if member.name %}
         <span class="portrait-name">{{ member.name }}</span>
@@ -48,7 +57,7 @@
         <span class="portrait-research">{{ member.research }}</span>
       {% endif %}
     
-    </div>
+    </{{ portrait_tag }}>
     
     {% if member.links %}
       <div class="portrait-links">

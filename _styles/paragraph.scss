@@ -3,6 +3,8 @@
 
 p {
   margin: 20px 0;
-  text-align: justify;
+  // ragged right. justified text opens uneven gaps between words, which is
+  // worst in the narrow columns and over the hero photo
+  text-align: left;
   line-height: var(--spacing);
 }

@@ -10,7 +10,7 @@ $wrap: 800px;
 
 .citation {
   display: flex;
-  margin: 20px 0;
+  margin: 14px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -28,16 +28,12 @@ $wrap: 800px;
   border-radius: var(--rounded);
 }
 
-.citation-image img.real-img {
-  width: 180px;
-  height: 180px;
-  object-fit: contain;
-}
-
-.citation-image img.placeholder-img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
+.citation-image img {
+  display: block;
+  width: $thumb-size;
+  height: calc(#{$thumb-size} * 0.66);
+  object-fit: cover;
+  border-radius: var(--rounded);
 }
 
 .citation-text {
@@ -48,7 +44,7 @@ $wrap: 800px;
   gap: 0.5px;
   max-width: 100%;
   height: min-content;
-  padding-right: 10px;
+  padding: 0 20px;
   text-align: left;
   overflow-wrap: break-word;
   z-index: 0;
@@ -66,9 +62,10 @@ $wrap: 800px;
 }
 
 .citation-title {
-  font-weight: var(--bold);
-  font-size: larger;
-  margin-top: 20px;
+  font-weight: var(--semi-bold);
+  font-size: 1.05rem;
+  line-height: var(--compact);
+  margin-top: 16px;
   margin-bottom: 2px;
 }
 
@@ -82,6 +79,16 @@ $wrap: 800px;
   z-index: -1;
   margin-top: 2px;
   margin-bottom: 2px;
+}
+
+.citation-authors {
+  font-size: 0.92rem;
+}
+
+.citation-details {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin-bottom: 16px;
 }
 
 .citation-publisher {
@@ -162,17 +169,13 @@ $wrap: 800px;
   }
 
   .citation-image {
-    width: unset;
-    height: $thumb-size;
+    align-self: stretch;
+    margin: 10px 10px 0;
   }
 
-  .citation-image img.real-img {
+  .citation-image img {
     width: 100%;
     height: auto;
-  }
-
-  .citation-image img.placeholder-img {
-    width: 100px;
-    height: 100px;
+    aspect-ratio: 16 / 9;
   }
 }

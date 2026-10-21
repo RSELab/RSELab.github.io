@@ -14,33 +14,36 @@ h6 {
   letter-spacing: 1px;
 }
 
+// page titles are mixed case and left aligned like the section headings
+// under them, and clearly the largest thing on the page. previously they were
+// small, uppercase and centred, so a page's title read smaller than its sections
 h1 {
-  margin: 40px 0;
-  font-size: 1.6rem;
-  font-weight: var(--regular);
-  text-transform: uppercase;
-  text-align: center;
+  margin: 40px 0 24px 0;
+  font-size: 2.25rem;
+  font-weight: var(--bold);
+  letter-spacing: 0;
+  text-align: left;
 }
 
 h2 {
-  font-size: 1.6rem;
-  padding-bottom: 5px;
-  border-bottom: solid 1px var(--light-gray);
-  font-weight: var(--regular);
+  font-size: 1.5rem;
+  padding-bottom: 6px;
+  // --light-gray is white in the light theme, which made this rule invisible
+  border-bottom: solid 1px color-mix(in srgb, var(--gray) 30%, transparent);
+  font-weight: var(--semi-bold);
+  letter-spacing: 0;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
+  color: var(--dark-gray);
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: 1.05rem;
 }
 
-h5 {
-  font-size: 1.15rem;
-}
-
+h5,
 h6 {
   font-size: 1rem;
 }

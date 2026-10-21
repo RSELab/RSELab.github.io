@@ -160,3 +160,42 @@
 .portrait-links a svg {
   font-size: 18px;
 }
+/* ===========================
+   Linked cards
+=========================== */
+a.portrait {
+  color: inherit;
+}
+
+a.portrait .portrait-image {
+  transition: transform var(--transition);
+}
+
+a.portrait:hover .portrait-image,
+a.portrait:focus-visible .portrait-image {
+  transform: scale(1.04);
+}
+
+a.portrait:hover .portrait-name,
+a.portrait:focus-visible .portrait-name {
+  color: var(--primary);
+}
+
+/* ===========================
+   Member page
+=========================== */
+.member-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: flex-start;
+  margin: 40px 0;
+}
+
+.member-card {
+  flex: 0 0 220px;
+}
+
+.member-body {
+  flex: 1 1 320px;
+}

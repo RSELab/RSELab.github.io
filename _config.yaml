@@ -28,7 +28,7 @@ defaults:
 collections:
   members:
     output: true
-    permalink: /members/:slug
+    permalink: /members/:slug/
   # generate page for each post
   posts:
     output: true

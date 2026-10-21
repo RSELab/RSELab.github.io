@@ -51,6 +51,7 @@ nav:
         image=member.image
         research=member.research
         links=member.links
+        url=member.url
       %}
     {% endfor %}
 
@@ -71,47 +72,32 @@ nav:
 
 ## Alumni
 
-{% assign senior = site.data.alumni | where_exp: "item", "item.degree == 'Postdoc' or item.degree == 'PhD'" %}
-{% assign junior = site.data.alumni | where_exp: "item", "item.degree == 'MS' or item.degree == 'Undergrad'" %}
 {% comment %}
-  anything with a missing or unrecognised degree, so that adding an entry
-  without one lists them here rather than dropping them off the page
+  one table per group. anything with a missing or unrecognised degree lands in
+  the second table rather than dropping off the page
 {% endcomment %}
-{% assign other = site.data.alumni | where_exp: "item", "item.degree != 'Postdoc' and item.degree != 'PhD' and item.degree != 'MS' and item.degree != 'Undergrad'" %}
+{% assign senior = site.data.alumni | where_exp: "item", "item.degree == 'Postdoc' or item.degree == 'PhD'" %}
+{% assign junior = site.data.alumni | where_exp: "item", "item.degree != 'Postdoc' and item.degree != 'PhD'" %}
 
-{% if senior.size > 0 %}
+{% for group in (1..2) %}
+  {% if group == 1 %}
+    {% assign rows = senior %}{% assign heading = "Postdocs and PhD Students" %}
+  {% else %}
+    {% assign rows = junior %}{% assign heading = "Masters and Undergraduates" %}
+  {% endif %}
+  {% if rows.size > 0 %}
 
-### Postdocs and PhD Students
-{:.center}
+### {{ heading }}
 
-<ul class="alumni-list">
-  {% for alumni in senior %}
-    <li>{{ alumni.name }}</li>
+<div class="alumni-table">
+  {% for alum in rows %}
+    <div class="alumni-row">
+      <span class="alumni-name">{{ alum.name }}</span>
+      <span class="alumni-degree">{{ alum.degree }}{% if alum.year %}, {{ alum.year }}{% endif %}</span>
+      <span class="alumni-now">{{ alum.now }}</span>
+    </div>
   {% endfor %}
-</ul>
+</div>
 
-{% endif %}
-
-{% if junior.size > 0 %}
-
-### Masters and Undergraduates
-{:.center}
-
-<ul class="alumni-list">
-  {% for alumni in junior %}
-    <li>{{ alumni.name }}</li>
-  {% endfor %}
-</ul>
-
-{% endif %}
-
-{% if other.size > 0 %}
-
-<ul class="alumni-list">
-  {% for alumni in other %}
-    <li>{{ alumni.name }}</li>
-  {% endfor %}
-</ul>
-
-{% endif %}
-
+  {% endif %}
+{% endfor %}
