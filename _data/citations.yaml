@@ -521,40 +521,6 @@
   link: https://doi.org/hcd7wc
   plugin: openalex.py
   file: openalex.yaml
-- id: doi:10.48550/arxiv.2602.11337
-  title: 'MolmoSpaces: A Large-Scale Open Ecosystem for Robot Navigation and Manipulation'
-  authors:
-  - Yejin Kim
-  - Wilbert Pumacay
-  - Omar Rayyan
-  - Max Argus
-  - Winson Han
-  - Eli VanderBilt
-  - Jordi Salvador
-  - Abhay Deshpande
-  - Rose Hendrix
-  - Snehal Jauhri
-  - Shuo Liu
-  - Nur Muhammad Mahi Shafiullah
-  - Maya Guru
-  - Ainaz Eftekhar
-  - Karen Farley
-  - Donovan Clay
-  - Jiafei Duan
-  - Arjun Guru
-  - Piper Wolters
-  - Alvaro Herrasti
-  - Ying-Chun Lee
-  - Georgia Chalvatzaki
-  - Yuchen Cui
-  - Ali Farhadi
-  - Dieter Fox
-  - Ranjay Krishna
-  publisher: arXiv
-  date: '2026-01-01'
-  link: https://doi.org/hcd7wd
-  plugin: openalex.py
-  file: openalex.yaml
 - id: doi:10.48550/arxiv.2602.19313
   title: 'TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics'
   authors:
@@ -756,24 +722,6 @@
   publisher: arXiv
   date: '2017-01-01'
   link: https://doi.org/g88vrf
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.48550/arXiv.2411.19309
-  title: 'GRAPE: Generalizing Robot Policy via Preference Alignment'
-  authors:
-  - Zijian Zhang
-  - Kaiyuan Zheng
-  - Zhaorun Chen
-  - Joel Jang
-  - Yi Li
-  - Siwei Han
-  - Chaoqi Wang
-  - Mingyu Ding
-  - Dieter Fox
-  - Huaxiu Yao
-  publisher: arXiv
-  date: '2024-01-01'
-  link: https://doi.org/g87dq8
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2311.02337
