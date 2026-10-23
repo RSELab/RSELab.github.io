@@ -1,1 +1,1 @@
-Sitemap: https://rselab.github.io/sitemap.xml
+Sitemap: http://rse-lab.cs.washington.edu/sitemap.xml
