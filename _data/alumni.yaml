@@ -5,6 +5,9 @@
 #   year     when they left; a range like 2005-2006 is fine
 #   now      where they went, optional
 
+- name: Joel Jang
+  degree: PhD
+  now: Founder of DreamLabs
 - name: Jiafei Duan
   degree: PhD
   year: "2026"
