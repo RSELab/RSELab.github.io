@@ -1,1 +1,1 @@
-Sitemap: http://rse-lab.cs.washington.edu/sitemap.xml
+Sitemap: https://rse-lab.cs.washington.edu/sitemap.xml
