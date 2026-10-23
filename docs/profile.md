@@ -29,7 +29,7 @@ links:
 ---
 
 Optional longer bio in Markdown. It appears on your own page at
-https://rselab.github.io/members/ada-lovelace/.
+https://rselab.github.io/members/ada-lovelace/. Your card on the Team page links there.
 ```
 
 ### Fields
@@ -42,6 +42,7 @@ https://rselab.github.io/members/ada-lovelace/.
 | `role` | yes | Use one of the values below. This decides which section of the Team page you appear in. |
 | `research` | recommended | A short line of interests. Keep it to about three topics so it fits on the card. |
 | `links` | optional | Your link icons. See the list below. |
+| `aliases` | optional | Every name you publish under, including your site name, e.g. `[Helen Wang, Yi Ru Wang]`. The "See your papers" link on your page searches for all of them. |
 
 ### Role
 
@@ -83,14 +84,16 @@ Leave out any links you don't want. The full list of supported keys is in [`_dat
 When you graduate or move on, a single pull request should do both of these:
 
 1. **Delete** your file from `_members/`. Your photo can stay in `images/team/`.
-2. **Add yourself** to [`_data/alumni.yaml`](../_data/alumni.yaml), newest first:
+2. **Add yourself** to the top of [`_data/alumni.yaml`](../_data/alumni.yaml):
 
    ```yaml
-   - name: Ada Lovelace (PhD, 2026, Research Scientist at Analytical Engines Inc.)
+   - name: Ada Lovelace
      degree: PhD
+     year: "2026"
+     now: Research Scientist at Analytical Engines Inc.
    ```
 
-   `degree` must be one of `PhD`, `Postdoc`, `MS` or `Undergrad`. This field decides which alumni list you appear in. PhD and Postdoc alumni are listed together, and so are MS and Undergrad alumni.
+   `degree` must be one of `PhD`, `Postdoc`, `MS` or `Undergrad`, and it decides which table you appear in. PhD and Postdoc alumni share one table, and MS and Undergrad alumni share the other. `now` is optional. Quote the year so YAML keeps it as text. If you're leaving before finishing your degree, leave out `year` and add `label: PhD student` (or similar). The label is shown in place of the degree and year.
 
 Your papers stay on the Publications page after you leave, because alumni still count as lab coauthors. For details, see [publications.md](publications.md).
 

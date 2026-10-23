@@ -66,32 +66,6 @@ body {
   padding-top: 80px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading);
-  font-weight: var(--bold);
-  letter-spacing: var(--letter-spacing);
-  margin-bottom: 0.5em;
-}
-
-h1 {
-  font-size: 2.5rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-h3 { font-size: 1.5rem !important; }
-h4 { font-size: 1.25rem !important; }
-h5 { font-size: 1.1rem !important; }
-h6 { font-size: 1rem !important; }
-
 header {
   position: fixed;
   top: 0;
@@ -181,24 +155,56 @@ img.full-background {
   text-align: center;
 }
 
-.team-divider {
-  border: none;
-  height: 1px;
-  background-color: #ccc;
-  margin: 3rem auto 0 auto;
-  width: 80%;
+// alumni as a three column table: name, degree and year, where they went.
+// collapses to stacked rows on narrow screens
+.alumni-table {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) auto minmax(0, 1.6fr);
+  margin: 0 0 2.5rem 0;
+  text-align: left;
 }
 
-.alumni-list {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-  margin-top: 2rem;
+.alumni-row {
+  display: contents;
 }
 
-.alumni-list li {
-  margin: 0.5rem 0;
-  font-size: 1rem;
+// gaps live in the cells' padding rather than column-gap, so each row's rule
+// runs unbroken across the whole table
+.alumni-row > span {
+  padding: 0.55rem 2rem 0.55rem 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--gray) 18%, transparent);
+}
+
+.alumni-name {
+  font-weight: var(--semi-bold);
+}
+
+.alumni-degree {
+  color: var(--gray);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.alumni-now {
+  color: var(--dark-gray);
+}
+
+@media (max-width: 600px) {
+  .alumni-table {
+    grid-template-columns: 1fr;
+  }
+
+  .alumni-row {
+    display: block;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--gray) 18%, transparent);
+  }
+
+  .alumni-row > span {
+    display: block;
+    padding: 0;
+    border: none;
+  }
 }
 
 .hero-section {
@@ -284,4 +290,28 @@ img.full-background {
 .hero-text p {
   font-size: 1rem;
   margin: 0;
+}
+
+.hero-text .hero-tagline {
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  text-align: center;
+  opacity: 0.95;
+}
+
+// the full lab description, moved out of the hero so the photo carries a
+// single readable line instead of a paragraph of white text
+.about {
+  max-width: 760px;
+  margin: 0 auto 3rem auto;
+}
+
+.about h2 {
+  font-size: 1.25rem;
+  border-bottom: none;
+  margin-top: 0;
+}
+
+.about p {
+  margin: 0;
+  color: var(--dark-gray);
 }

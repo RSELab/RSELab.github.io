@@ -1,54 +1,44 @@
 ---
 layout: default
---- 
+---
 
-{% capture floatcontent %}
+{% comment %}
+  the portrait card already carries the role, research line and links, so the
+  page only adds the bio and a way into this person's papers
+{% endcomment %}
 
-{% include portrait.html lookup=page.slug %}
+<div class="member-page">
+  <div class="member-card">
+    {% include portrait.html lookup=page.slug %}
+  </div>
 
-<div>
-  <p>{{ page.research }}</p>
-  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 10px;">
-    {% for link in page.links %}
-      {% assign key = link[0] %}
-      {% assign value = link[1] %}
-      {% include button.html type=key link=value style="bare" %}
-    {% endfor %}
+  <div class="member-body">
+    {{ content }}
+
+    {% comment %}
+      authors often publish under a different name than the site shows, so
+      search for every alias as well as the display name
+    {% endcomment %}
+    {% assign aliases = page.aliases
+      | default: page.name
+      | default: page.title
+      | join: ","
+      | split: ","
+      | array_filter
+    %}
+
+    {% capture search -%}
+      publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+    {%- endcapture %}
+
+    <p>
+      <a href="{{ search | relative_url | uri_escape }}">
+        See {{ page.name | default: page.title }}'s papers &rarr;
+      </a>
+    </p>
+
+    <p>
+      <a href="{{ '/team/' | relative_url }}">&larr; Back to the team</a>
+    </p>
   </div>
 </div>
-
-{% endcapture %}
-
-{% include float.html content=floatcontent %}
-
-{{ content }}
-
-{% assign aliases = page.aliases
-  | default: page.name
-  | default: page.title
-  | join: ","
-  | split: ","
-  | array_filter
-%}
-
-{% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
-
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Research page
-  </a>
-</p>
-
-{% capture search -%}
-  blog/?search={{ page.name }}
-{%- endcapture %}
-
-<!--
-<p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
-  </a>
-</p>
--->
