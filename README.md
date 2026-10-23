@@ -6,7 +6,7 @@
 
 The website of the Robotics and State Estimation Lab (RSE Lab) at the University of Washington, led by Dieter Fox.
 
-Live site: **[rse-lab.cs.washington.edu](http://rse-lab.cs.washington.edu)**
+Live site: **[rse-lab.cs.washington.edu](https://rse-lab.cs.washington.edu)**
 
 It is a [Jekyll](https://jekyllrb.com) site built on Greene Lab's [Lab Website Template](https://github.com/greenelab/lab-website-template) ([template docs](https://greene-lab.gitbook.io/lab-website-template-docs)).
 
