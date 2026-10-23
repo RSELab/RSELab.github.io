@@ -93,7 +93,7 @@ nav:
   {% for alum in rows %}
     <div class="alumni-row">
       <span class="alumni-name">{{ alum.name }}</span>
-      <span class="alumni-degree">{{ alum.degree }}{% if alum.year %}, {{ alum.year }}{% endif %}</span>
+      <span class="alumni-degree">{% if alum.label %}{{ alum.label }}{% else %}{{ alum.degree }}{% if alum.year %}, {{ alum.year }}{% endif %}{% endif %}</span>
       <span class="alumni-now">{{ alum.now }}</span>
     </div>
   {% endfor %}

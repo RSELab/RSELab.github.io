@@ -4,9 +4,12 @@
 #   degree   PhD, Postdoc, MS or Undergrad (decides which table they're in)
 #   year     when they left; a range like 2005-2006 is fine
 #   now      where they went, optional
+#   label    optional text shown instead of degree and year, e.g. "PhD student"
+#            for someone who left before finishing
 
 - name: Joel Jang
   degree: PhD
+  label: PhD student
   now: Founder of DreamLabs
 - name: Jiafei Duan
   degree: PhD
@@ -59,16 +62,16 @@
   degree: PhD
   year: "2021"
   now: Meta Reality Labs
-# listed as "PhD student" with no year
 - name: Vinitha Ranganeni
   degree: PhD
+  label: PhD student
 - name: Daniel Gordon
   degree: PhD
   year: "2020"
   now: Third Wave Automation
-# listed as "PhD student" with no year
 - name: Matt Schmittle
   degree: PhD
+  label: PhD student
 - name: Arunkumar Byravan
   degree: PhD
   year: "2019"

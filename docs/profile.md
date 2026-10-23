@@ -93,7 +93,7 @@ When you graduate or move on, a single pull request should do both of these:
      now: Research Scientist at Analytical Engines Inc.
    ```
 
-   `degree` must be one of `PhD`, `Postdoc`, `MS` or `Undergrad`, and it decides which table you appear in. PhD and Postdoc alumni share one table, and MS and Undergrad alumni share the other. `now` is optional. Quote the year so YAML keeps it as text.
+   `degree` must be one of `PhD`, `Postdoc`, `MS` or `Undergrad`, and it decides which table you appear in. PhD and Postdoc alumni share one table, and MS and Undergrad alumni share the other. `now` is optional. Quote the year so YAML keeps it as text. If you're leaving before finishing your degree, leave out `year` and add `label: PhD student` (or similar). The label is shown in place of the degree and year.
 
 Your papers stay on the Publications page after you leave, because alumni still count as lab coauthors. For details, see [publications.md](publications.md).
 
