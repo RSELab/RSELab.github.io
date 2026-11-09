@@ -1,5 +1,32 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1109/icra57385.2026.11696546
+  title: 'MolmoAct: Action Reasoning Models that can Reason in Space'
+  authors:
+  - Jason Lee
+  - Jiafei Duan
+  - Haoquan Fang
+  - Yuquan Deng
+  - Shuo Liu
+  - Boyang Li
+  - Bohan Fang
+  - Jieyu Zhang
+  - Yi Ru Wang
+  - Sangho Lee
+  - Winson Han
+  - Wilbert Pumacay
+  - Angelica Wu
+  - Rose Hendrix
+  - Karen Farley
+  - Eli Vanderbilt
+  - Ali Farhadi
+  - Dieter Fox
+  - Ranjay Krishna
+  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2026-06-01'
+  link: https://doi.org/hcm58f
+  plugin: openalex.py
+  file: openalex.yaml
 - id: doi:10.15607/rss.2024.xx.133
   title: 'THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation'
   authors:
@@ -30,6 +57,109 @@
   link: https://doi.org/g8754w
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/icra57385.2026.11695972
+  title: 'GRAPE: Generalizing Robot Policy via Preference Alignment'
+  authors:
+  - Zijian Zhang
+  - Kaiyuan Zheng
+  - Zhaorun Chen
+  - Joel Jang
+  - Yi Li
+  - Siwei Han
+  - Chaoqi Wang
+  - Mingyu Ding
+  - Dieter Fox
+  - Huaxiu Yao
+  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2026-06-01'
+  link: https://doi.org/hcm58g
+  plugin: openalex.py
+  file: openalex.yaml
+- id: doi:10.15607/rss.2026.xxii.140
+  title: 'Robometer: Scaling General-Purpose Robotic Reward Models via Trajectory
+    Comparisons'
+  authors:
+  - Anthony Liang
+  - Yigit Korkmaz
+  - Jiahui Zhang
+  - Minyoung Hwang
+  - Abrar Anwar
+  - Sidhant Kaushik
+  - Aditya Shah
+  - Alex Huang
+  - Luke Zettlemoyer
+  - Dieter Fox
+  - Yu Xiang
+  - Anqi Li
+  - Andreea Bobu
+  - Abhishek Gupta
+  - Stephen Tu
+  - Erdem Biyik
+  - Jesse Zhang
+  publisher: 'Robotics: Science and Systems XXII'
+  date: '2026-07-13'
+  link: https://doi.org/hcmjkn
+  plugin: openalex.py
+  file: openalex.yaml
+- id: doi:10.1109/icra57385.2026.11696426
+  title: 'GraspGen: A Diffusion-based Framework for 6-DOF Grasping with On-Generator
+    Training'
+  authors:
+  - Adithyavairavan Murali
+  - Balakumar Sundaralingam
+  - Yu-Wei Chao
+  - Wentao Yuan
+  - Jun Yamada
+  - Mark Carlson
+  - Fabio Ramos
+  - Stan Birchfield
+  - Dieter Fox
+  - Clemens Eppner
+  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2026-06-01'
+  link: https://doi.org/hcm58h
+  plugin: openalex.py
+  file: openalex.yaml
+- id: doi:10.1109/icra57385.2026.11697082
+  title: 'Robo Eval: Where Robotic Manipulation Meets Structured and Scalable Evaluation'
+  authors:
+  - Yi Ru Wang
+  - Carter Ung
+  - Christopher Tan
+  - Grant Tannert
+  - Jiafei Duan
+  - Josephine Li
+  - Anh Le
+  - Rishabh Oswal
+  - Markus Grotz
+  - Wilbert Pumacay
+  - Yuquan Deng
+  - Ranjay Krishna
+  - Dieter Fox
+  - Siddhartha Srinivasa
+  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2026-06-01'
+  link: https://doi.org/hcm58d
+  plugin: openalex.py
+  file: openalex.yaml
+- id: doi:10.1109/icra57385.2026.11697556
+  title: 'PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization
+    of Robot Manipulation Policies'
+  authors:
+  - Jesse Zhang
+  - Marius Memmel
+  - Kevin Kim
+  - Dieter Fox
+  - Jesse Thomason
+  - Fabio Ramos
+  - "Erdem B\u0131y\u0131k"
+  - Abhishek Gupta
+  - Anqi Li
+  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2026-06-01'
+  link: https://doi.org/hcm58j
+  plugin: openalex.py
+  file: openalex.yaml
 - id: doi:10.1109/LRA.2025.3542323
   title: 'Aim My Robot: Precision Local Navigation to Any Object'
   authors:
@@ -59,83 +189,6 @@
   link: https://doi.org/g8756w
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/icra57385.2026.11696546
-  title: 'MolmoAct: Action Reasoning Models that can Reason in Space'
-  authors:
-  - Jason Lee
-  - Jiafei Duan
-  - Haoquan Fang
-  - Yuquan Deng
-  - Shuo Liu
-  - Boyang Li
-  - Bohan Fang
-  - Jieyu Zhang
-  - Yi Ru Wang
-  - Sangho Lee
-  - Winson Han
-  - Wilbert Pumacay
-  - Angelica Wu
-  - Rose Hendrix
-  - Karen Farley
-  - Eli Vanderbilt
-  - Ali Farhadi
-  - Dieter Fox
-  - Ranjay Krishna
-  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
-  date: '2026-06-01'
-  link: https://doi.org/hcm58f
-  plugin: openalex.py
-  file: openalex.yaml
-- id: doi:10.1109/icra57385.2026.11695972
-  title: 'GRAPE: Generalizing Robot Policy via Preference Alignment'
-  authors:
-  - Zijian Zhang
-  - Kaiyuan Zheng
-  - Zhaorun Chen
-  - Joel Jang
-  - Yi Li
-  - Siwei Han
-  - Chaoqi Wang
-  - Mingyu Ding
-  - Dieter Fox
-  - Huaxiu Yao
-  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
-  date: '2026-06-01'
-  link: https://doi.org/hcm58g
-  plugin: openalex.py
-  file: openalex.yaml
-- id: doi:10.1109/icra55743.2025.11128527
-  title: 'TWIN: Two-handed Intelligent Benchmark for Bimanual Manipulation'
-  authors:
-  - Markus Grotz
-  - Mohit Shridhar
-  - Yu-Wei Chao
-  - Tamim Asfour
-  - Dieter Fox
-  publisher: 2025 IEEE International Conference on Robotics and Automation (ICRA)
-  date: '2025-05-19'
-  link: https://doi.org/hcd7hr
-  plugin: openalex.py
-  file: openalex.yaml
-- id: doi:10.1109/icra57385.2026.11696426
-  title: 'GraspGen: A Diffusion-based Framework for 6-DOF Grasping with On-Generator
-    Training'
-  authors:
-  - Adithyavairavan Murali
-  - Balakumar Sundaralingam
-  - Yu-Wei Chao
-  - Wentao Yuan
-  - Jun Yamada
-  - Mark Carlson
-  - Fabio Ramos
-  - Stan Birchfield
-  - Dieter Fox
-  - Clemens Eppner
-  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
-  date: '2026-06-01'
-  link: https://doi.org/hcm58h
-  plugin: openalex.py
-  file: openalex.yaml
 - id: doi:10.1109/iros60139.2025.11245882
   title: 'OptiGrasp: Optimized Grasp Pose Detection Using RGB Images for Warehouse
     Picking Robots'
@@ -152,28 +205,66 @@
   link: https://doi.org/hcd7v6
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/icra57385.2026.11697082
-  title: 'Robo Eval: Where Robotic Manipulation Meets Structured and Scalable Evaluation'
+- id: doi:10.1109/icra55743.2025.11128527
+  title: 'TWIN: Two-handed Intelligent Benchmark for Bimanual Manipulation'
   authors:
-  - Yi Ru Wang
-  - Carter Ung
-  - Christopher Tan
-  - Grant Tannert
-  - Jiafei Duan
-  - Josephine Li
-  - Anh Le
-  - Rishabh Oswal
   - Markus Grotz
-  - Wilbert Pumacay
-  - Yuquan Deng
-  - Ranjay Krishna
+  - Mohit Shridhar
+  - Yu-Wei Chao
+  - Tamim Asfour
   - Dieter Fox
-  - Siddhartha Srinivasa
-  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
-  date: '2026-06-01'
-  link: https://doi.org/hcm58d
+  publisher: 2025 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2025-05-19'
+  link: https://doi.org/hcd7hr
   plugin: openalex.py
   file: openalex.yaml
+- id: doi:10.15607/rss.2026.xxii.091
+  title: 'MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation'
+  authors:
+  - Yejin Kim
+  - Wilbert Pumacay
+  - Omar Rayyan
+  - Max Argus
+  - Winson Han
+  - Eli Vanderbilt
+  - Jordi Salvador
+  - Abhay Deshpande
+  - Rose Hendrix
+  - Snehal Jauhri
+  - Shuo Liu
+  - Nur Shafiullah
+  - Maya Guru
+  - Ainaz Eftekhar
+  - Karen Farley
+  - Donovan Clay
+  - Jiafei Duan
+  - Arjun Guru
+  - Piper Wolters
+  - Alvaro Herrasti
+  - Ying-Chun Lee
+  - Georgia Chalvatzaki
+  - Yuchen Cui
+  - Ali Farhadi
+  - Dieter Fox
+  - Ranjay Krishna
+  publisher: 'Robotics: Science and Systems XXII'
+  date: '2026-07-13'
+  link: https://doi.org/hcmjkp
+  plugin: openalex.py
+  file: openalex.yaml
+- id: doi:10.1007/978-3-031-73024-5_16
+  title: "Learning to\_Build by\_Building Your Own Instructions"
+  authors:
+  - Aaron Walsman
+  - Muru Zhang
+  - Adam Fishman
+  - Ali Farhadi
+  - Dieter Fox
+  publisher: Lecture Notes in Computer Science
+  date: '2024-11-24'
+  link: https://doi.org/g87577
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.48550/arxiv.2503.14734
   title: 'GR00T N1: An Open Foundation Model for Generalist Humanoid Robots'
   authors:
@@ -240,55 +331,6 @@
   link: https://doi.org/g88qt3
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.48550/arXiv.2406.18915
-  title: 'Manipulate-Anything: Automating Real-World Robots using Vision-Language
-    Models'
-  authors:
-  - Jiafei Duan
-  - Wentao Yuan
-  - Wilbert Pumacay
-  - Yi Ru Wang
-  - Kiana Ehsani
-  - Dieter Fox
-  - Ranjay Krishna
-  publisher: arXiv
-  date: '2024-01-01'
-  link: https://doi.org/g88qtz
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.48550/arXiv.2410.00371
-  title: 'AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in
-    Robotic Manipulation'
-  authors:
-  - Jiafei Duan
-  - Wilbert Pumacay
-  - Nishanth Kumar
-  - Yi Ru Wang
-  - Shulin Tian
-  - Wentao Yuan
-  - Ranjay Krishna
-  - Dieter Fox
-  - Ajay Mandlekar
-  - Yijie Guo
-  publisher: arXiv
-  date: '2024-01-01'
-  link: https://doi.org/g88qtp
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.48550/arXiv.2404.12308
-  title: 'ASID: Active Exploration for System Identification in Robotic Manipulation'
-  authors:
-  - Marius Memmel
-  - Andrew Wagenmaker
-  - Chuning Zhu
-  - Patrick Yin
-  - Dieter Fox
-  - Abhishek Gupta
-  publisher: arXiv
-  date: '2024-01-01'
-  link: https://doi.org/g88q6r
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.48550/arXiv.2410.11758
   title: Latent Action Pretraining from Videos
   authors:
@@ -313,39 +355,6 @@
   link: https://doi.org/g88qtk
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.48550/arXiv.2502.05485
-  title: 'HAMSTER: Hierarchical Action Models For Open-World Robot Manipulation'
-  authors:
-  - Yi Li
-  - Yuquan Deng
-  - Jesse Zhang
-  - Joel Jang
-  - Marius Memmel
-  - Raymond Yu
-  - Caelan Reed Garrett
-  - Fabio Ramos
-  - Dieter Fox
-  - Anqi Li
-  - Abhishek Gupta
-  - Ankit Goyal
-  publisher: arXiv
-  date: '2025-01-01'
-  link: https://doi.org/g86b5v
-  plugin: sources.py
-  file: sources.yaml
-  description: This work proposes a hierarchical vision-language-action (VLA) model
-    that improves robot generalization by using off-domain data (like videos or simulations).
-    Instead of predicting actions directly, a high-level model generates a 2D path,
-    which guides a low-level controller. This approach leads to better transfer across
-    domains and improves real-robot performance by 20% on average.
-  image: images/HAMSTER_Thumbnail.png
-  buttons:
-  - type: website
-    text: Project Page
-    link: https://hamster-robot.github.io/#
-  tags:
-  - behaviour cloning
-  - vision language action
 - id: doi:10.48550/arxiv.2505.12705
   title: 'DreamGen: Unlocking Generalization in Robot Learning through Video World
     Models'
@@ -383,29 +392,109 @@
   link: https://doi.org/hcd7v8
   plugin: openalex.py
   file: openalex.yaml
-- id: doi:10.48550/arXiv.2407.00278
-  title: 'PerAct2: Benchmarking and Learning for Robotic Bimanual Manipulation Tasks'
+- id: doi:10.48550/arXiv.2410.00371
+  title: 'AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in
+    Robotic Manipulation'
   authors:
-  - Markus Grotz
-  - Mohit Shridhar
-  - Tamim Asfour
+  - Jiafei Duan
+  - Wilbert Pumacay
+  - Nishanth Kumar
+  - Yi Ru Wang
+  - Shulin Tian
+  - Wentao Yuan
+  - Ranjay Krishna
   - Dieter Fox
+  - Ajay Mandlekar
+  - Yijie Guo
   publisher: arXiv
   date: '2024-01-01'
-  link: https://doi.org/g88qf6
+  link: https://doi.org/g88qtp
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1007/978-3-031-73024-5_16
-  title: "Learning to\_Build by\_Building Your Own Instructions"
+- id: doi:10.48550/arxiv.2605.02881
+  title: 'MolmoAct2: Action Reasoning Models for Real-world Deployment'
   authors:
-  - Aaron Walsman
-  - Muru Zhang
-  - Adam Fishman
+  - Haoquan Fang
+  - Jiafei Duan
+  - Donovan Clay
+  - Sam Wang
+  - Shuo Liu
+  - Weikai Huang
+  - Xiang Fan
+  - Wei-Chuan Tsai
+  - Shirui Chen
+  - Yi Ru Wang
+  - Shanli Xing
+  - Jaemin Cho
+  - Jae Sung Park
+  - Ainaz Eftekhar
+  - Peter Sushko
+  - Karen Farley
+  - Angad Wadhwa
+  - Cole Harrison
+  - Winson Han
+  - Ying-Chun Lee
+  - Eli VanderBilt
+  - Rose Hendrix
+  - Suveen Ellawela
+  - Lucas Ngoo
+  - Joyce Chai
+  - Zhongzheng Ren
   - Ali Farhadi
   - Dieter Fox
-  publisher: Lecture Notes in Computer Science
-  date: '2024-11-24'
-  link: https://doi.org/g87577
+  - Ranjay Krishna
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hcd7wm
+  plugin: openalex.py
+  file: openalex.yaml
+- id: doi:10.48550/arXiv.2502.05485
+  title: 'HAMSTER: Hierarchical Action Models For Open-World Robot Manipulation'
+  authors:
+  - Yi Li
+  - Yuquan Deng
+  - Jesse Zhang
+  - Joel Jang
+  - Marius Memmel
+  - Raymond Yu
+  - Caelan Reed Garrett
+  - Fabio Ramos
+  - Dieter Fox
+  - Anqi Li
+  - Abhishek Gupta
+  - Ankit Goyal
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g86b5v
+  plugin: sources.py
+  file: sources.yaml
+  description: This work proposes a hierarchical vision-language-action (VLA) model
+    that improves robot generalization by using off-domain data (like videos or simulations).
+    Instead of predicting actions directly, a high-level model generates a 2D path,
+    which guides a low-level controller. This approach leads to better transfer across
+    domains and improves real-robot performance by 20% on average.
+  image: images/HAMSTER_Thumbnail.png
+  buttons:
+  - type: website
+    text: Project Page
+    link: https://hamster-robot.github.io/#
+  tags:
+  - behaviour cloning
+  - vision language action
+- id: doi:10.48550/arXiv.2406.18915
+  title: 'Manipulate-Anything: Automating Real-World Robots using Vision-Language
+    Models'
+  authors:
+  - Jiafei Duan
+  - Wentao Yuan
+  - Wilbert Pumacay
+  - Yi Ru Wang
+  - Kiana Ehsani
+  - Dieter Fox
+  - Ranjay Krishna
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/g88qtz
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2501.18564
@@ -445,22 +534,21 @@
   link: https://doi.org/hcd7ht
   plugin: openalex.py
   file: openalex.yaml
-- id: doi:10.1109/icra57385.2026.11697556
-  title: 'PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization
-    of Robot Manipulation Policies'
+- id: doi:10.48550/arxiv.2602.19313
+  title: 'TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics'
   authors:
-  - Jesse Zhang
-  - Marius Memmel
-  - Kevin Kim
+  - Shirui Chen
+  - Cole Harrison
+  - Ying-Chun Lee
+  - Angela Jin Yang
+  - Zhongzheng Ren
+  - Lillian J. Ratliff
+  - Jiafei Duan
   - Dieter Fox
-  - Jesse Thomason
-  - Fabio Ramos
-  - "Erdem B\u0131y\u0131k"
-  - Abhishek Gupta
-  - Anqi Li
-  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA)
-  date: '2026-06-01'
-  link: https://doi.org/hcm58j
+  - Ranjay Krishna
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hcd7wf
   plugin: openalex.py
   file: openalex.yaml
 - id: doi:10.48550/arxiv.2509.01819
@@ -505,65 +593,18 @@
   link: https://doi.org/hcd7h7
   plugin: openalex.py
   file: openalex.yaml
-- id: doi:10.48550/arxiv.2602.07845
-  title: 'Recurrent-Depth VLA: Implicit Test-Time Compute Scaling of Vision-Language-Action
-    Models via Latent Iterative Reasoning'
+- id: doi:10.48550/arXiv.2407.00278
+  title: 'PerAct2: Benchmarking and Learning for Robotic Bimanual Manipulation Tasks'
   authors:
-  - Yalcin Tur
-  - Jalal Naghiyev
-  - Haoquan Fang
-  - Wei-Chuan Tsai
-  - Jiafei Duan
+  - Markus Grotz
+  - Mohit Shridhar
+  - Tamim Asfour
   - Dieter Fox
-  - Ranjay Krishna
   publisher: arXiv
-  date: '2026-01-01'
-  link: https://doi.org/hcd7wc
-  plugin: openalex.py
-  file: openalex.yaml
-- id: doi:10.48550/arxiv.2602.19313
-  title: 'TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics'
-  authors:
-  - Shirui Chen
-  - Cole Harrison
-  - Ying-Chun Lee
-  - Angela Jin Yang
-  - Zhongzheng Ren
-  - Lillian J. Ratliff
-  - Jiafei Duan
-  - Dieter Fox
-  - Ranjay Krishna
-  publisher: arXiv
-  date: '2026-01-01'
-  link: https://doi.org/hcd7wf
-  plugin: openalex.py
-  file: openalex.yaml
-- id: doi:10.15607/rss.2026.xxii.140
-  title: 'Robometer: Scaling General-Purpose Robotic Reward Models via Trajectory
-    Comparisons'
-  authors:
-  - Anthony Liang
-  - Yigit Korkmaz
-  - Jiahui Zhang
-  - Minyoung Hwang
-  - Abrar Anwar
-  - Sidhant Kaushik
-  - Aditya Shah
-  - Alex Huang
-  - Luke Zettlemoyer
-  - Dieter Fox
-  - Yu Xiang
-  - Anqi Li
-  - Andreea Bobu
-  - Abhishek Gupta
-  - Stephen Tu
-  - Erdem Biyik
-  - Jesse Zhang
-  publisher: 'Robotics: Science and Systems XXII'
-  date: '2026-07-13'
-  link: https://doi.org/hcmjkn
-  plugin: openalex.py
-  file: openalex.yaml
+  date: '2024-01-01'
+  link: https://doi.org/g88qf6
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.48550/arxiv.2603.16861
   title: 'MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation'
   authors:
@@ -598,58 +639,20 @@
   link: https://doi.org/hcd7wh
   plugin: openalex.py
   file: openalex.yaml
-- id: doi:10.48550/arxiv.2604.05226
-  title: 'RoboPlayground: Democratizing Robotic Evaluation through Structured Physical
-    Domains'
+- id: doi:10.48550/arXiv.2404.12308
+  title: 'ASID: Active Exploration for System Identification in Robotic Manipulation'
   authors:
-  - Yi Ru Wang
-  - Carter Ung
-  - Evan Gubarev
-  - Christopher Tan
-  - Siddhartha Srinivasa
+  - Marius Memmel
+  - Andrew Wagenmaker
+  - Chuning Zhu
+  - Patrick Yin
   - Dieter Fox
+  - Abhishek Gupta
   publisher: arXiv
-  date: '2026-01-01'
-  link: https://doi.org/hcd7wk
-  plugin: openalex.py
-  file: openalex.yaml
-- id: doi:10.48550/arxiv.2605.02881
-  title: 'MolmoAct2: Action Reasoning Models for Real-world Deployment'
-  authors:
-  - Haoquan Fang
-  - Jiafei Duan
-  - Donovan Clay
-  - Sam Wang
-  - Shuo Liu
-  - Weikai Huang
-  - Xiang Fan
-  - Wei-Chuan Tsai
-  - Shirui Chen
-  - Yi Ru Wang
-  - Shanli Xing
-  - Jaemin Cho
-  - Jae Sung Park
-  - Ainaz Eftekhar
-  - Peter Sushko
-  - Karen Farley
-  - Angad Wadhwa
-  - Cole Harrison
-  - Winson Han
-  - Ying-Chun Lee
-  - Eli VanderBilt
-  - Rose Hendrix
-  - Suveen Ellawela
-  - Lucas Ngoo
-  - Joyce Chai
-  - Zhongzheng Ren
-  - Ali Farhadi
-  - Dieter Fox
-  - Ranjay Krishna
-  publisher: arXiv
-  date: '2026-01-01'
-  link: https://doi.org/hcd7wm
-  plugin: openalex.py
-  file: openalex.yaml
+  date: '2024-01-01'
+  link: https://doi.org/g88q6r
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.48550/arxiv.2608.10860
   title: "Flex-$\u03C0$: A Multi-Stream World-Action Model with Compute Flexibility"
   authors:
@@ -665,38 +668,91 @@
   link: https://doi.org/hcfvgq
   plugin: openalex.py
   file: openalex.yaml
-- id: doi:10.15607/rss.2026.xxii.091
-  title: 'MolmoSpaces: Large-Scale Open Ecosystem for Robot Manipulation and Navigation'
+- id: doi:10.48550/arxiv.2602.07845
+  title: 'Recurrent-Depth VLA: Implicit Test-Time Compute Scaling of Vision-Language-Action
+    Models via Latent Iterative Reasoning'
   authors:
-  - Yejin Kim
-  - Wilbert Pumacay
-  - Omar Rayyan
-  - Max Argus
-  - Winson Han
-  - Eli Vanderbilt
-  - Jordi Salvador
-  - Abhay Deshpande
-  - Rose Hendrix
-  - Snehal Jauhri
-  - Shuo Liu
-  - Nur Shafiullah
-  - Maya Guru
-  - Ainaz Eftekhar
-  - Karen Farley
-  - Donovan Clay
+  - Yalcin Tur
+  - Jalal Naghiyev
+  - Haoquan Fang
+  - Wei-Chuan Tsai
   - Jiafei Duan
-  - Arjun Guru
-  - Piper Wolters
-  - Alvaro Herrasti
-  - Ying-Chun Lee
-  - Georgia Chalvatzaki
-  - Yuchen Cui
-  - Ali Farhadi
   - Dieter Fox
   - Ranjay Krishna
-  publisher: 'Robotics: Science and Systems XXII'
-  date: '2026-07-13'
-  link: https://doi.org/hcmjkp
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hcd7wc
+  plugin: openalex.py
+  file: openalex.yaml
+- id: doi:10.48550/arxiv.2604.05226
+  title: 'RoboPlayground: Democratizing Robotic Evaluation through Structured Physical
+    Domains'
+  authors:
+  - Yi Ru Wang
+  - Carter Ung
+  - Evan Gubarev
+  - Christopher Tan
+  - Siddhartha Srinivasa
+  - Dieter Fox
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hcd7wk
+  plugin: openalex.py
+  file: openalex.yaml
+- id: doi:10.48550/arxiv.2611.02497
+  title: 'RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild'
+  authors:
+  - Tan Sang Nguyen
+  - Yi Ru Wang
+  - Shailesh Shailesh
+  - Gang Yang
+  - Jiamo Hu
+  - Jianuo Jiang
+  - Haoquan Fang
+  - Zhongzheng Ren
+  - Zhongyi Luo
+  - Ian Chong
+  - Aaron Tung
+  - Santiago Pravisani
+  - Minghui Lin
+  - Yao Mo
+  - Ishneet Singh
+  - Benjamin Tee
+  - Harold Soh
+  - Siddhartha Srinivasa
+  - Dieter Fox
+  - David Hsu
+  - Haoming Song
+  - Maxime Ellerbach
+  - Thomas Wolf
+  - Pepijn Kooijmans
+  - Ruijie He
+  - Michael Cho
+  - Jiafei Duan
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hcrv26
+  plugin: openalex.py
+  file: openalex.yaml
+- id: doi:10.48550/arxiv.2611.03622
+  title: 'D&amp;A: Decoupling Description and Assessment Enables VLMs as Zero-Shot
+    Robotic Reward Models'
+  authors:
+  - Marius Memmel
+  - Shawn Yin
+  - Urvi Rutia
+  - Angad Wadhwa
+  - Eldon Li
+  - Gavin Angeloff
+  - Ankit Goyal
+  - Jesse Zhang
+  - Dieter Fox
+  - Fabio Ramos
+  - Anqi Li
+  - Abhishek Gupta
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hcrv27
   plugin: openalex.py
   file: openalex.yaml
 - id: doi:10.48550/arxiv.2412.02818
